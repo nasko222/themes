@@ -22,9 +22,7 @@
     --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
     --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
     --channels-default: rgb(139, 148, 158);
-    --channeltextarea-background: rgb(7, 10, 16);
     --voice-color: var(--brand-experiment);
-    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
     --activity-card-background: #0f0f0f;
     --interactive-normal: rgb(139, 148, 158);
     --interactive-hover: #dcddde;
@@ -40,11 +38,6 @@
     --deprecated-store-bg: #36393f;
     --deprecated-quickswitcher-input-background: #72767d;
     --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
-    --deprecated-text-input-bg: var(--channeltextarea-background);
-    --deprecated-text-input-border: var(--border-color);
-    --deprecated-text-input-border-hover: #040405;
-    --deprecated-text-input-border-disabled: #202225;
-    --deprecated-text-input-prefix: #dcddde;
     --background-accent-1: rgb(15, 15, 15, 0.1);
     --background-accent-3: rgb(15, 15, 15, 0.3);
     --background-floating-2: rgba(0, 0, 0, 0.2);
@@ -69,16 +62,6 @@
 
 .theme-dark {
     --background-secondary: rgb(9, 12, 16);
-    --text-positive: hsl(139, calc(var(--saturation-factor, 1)*66.8%), 58.6%);
-    --text-warning: hsl(38, calc(var(--saturation-factor, 1)*95.7%), 54.1%);
-    --text-danger: hsl(359, calc(var(--saturation-factor, 1)*82.6%), 59.4%);
-    --info-positive-text: #fff;
-    --info-warning-text: #fff;
-    --info-danger-text: #fff;
-    --info-help-background: hsla(197, calc(var(--saturation-factor, 1)*100%), 47.8%, 0.1);
-    --info-help-foreground: hsl(197, calc(var(--saturation-factor, 1)*100%), 47.8%);
-    --info-help-text: #fff;
-    --status-warning-text: #000;
     --scrollbar-thin-thumb: rgb(9, 12, 16);
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-thumb: rgb(9, 12, 16);
@@ -96,7 +79,6 @@
     --background-mentioned-hover: rgba(20, 33, 53, 0.233);
     --background-message-hover: rgba(4, 4, 5, 0.07);
     --activity-card-background: #202225;
-    --textbox-markdown-syntax: rgb(82, 89, 95);
 }
 
 .resultsGroup-r_nuzN {
